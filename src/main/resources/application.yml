@@ -1,0 +1,9 @@
+quarkus:
+  application:
+    name: camel-quarkus-xml
+    version: 1.0.0
+  camel:
+    context:
+      name: camel-quarkus-xml-context
+    main:
+      routes-include-pattern: routes/myroutes.xml
