@@ -20,8 +20,11 @@
             http://camel.apache.org/schema/spring/camel-spring.xsd">
 
     <route id="xml-route">
-        <from uri="timer:from-xml?period=1000"/>
-        <log message="Hello XML!"/>
+        <from uri="direct:greetings"/>
+        <log message="${body} said hello"/>
+        <setBody>
+            <simple>Hi ${body}</simple>
+        </setBody>
     </route>
 
 </routes>
