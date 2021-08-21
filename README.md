@@ -1,4 +1,6 @@
 [![Quarkus Codestart CI](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml/badge.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
+[![Coverage](.github/badges/jacoco.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
+
 # camel-with-quarqus Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
