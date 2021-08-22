@@ -5,3 +5,5 @@ quarkus:
   log:
     console:
       json: false
+  jacoco:
+    report-location: site/jacoco
