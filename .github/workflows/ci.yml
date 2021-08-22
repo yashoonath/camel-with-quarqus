@@ -42,7 +42,7 @@ jobs:
           echo "branch coverage = ${{ steps.jacoco.outputs.branches }}"
 
       - name: Commit the badge (if it changed)
-        if: ${{ github.event_name != 'pull_request' }}
+        #if: ${{ github.event_name != 'pull_request' }}
         run: |
           cd badges
           if [[ `git status --porcelain *.svg` ]]; then
