@@ -1,9 +1,0 @@
-quarkus:
-  application:
-    name: test-camel-quarkus-xml
-    version: 1.0.0
-  log:
-    console:
-      json: false
-  jacoco:
-    report-location: site/jacoco
