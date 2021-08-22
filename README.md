@@ -1,5 +1,6 @@
 [![Quarkus Codestart CI](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml/badge.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
 [![Coverage](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml/jacoco.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
+[![coverage](../badges/jacoco.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml) [![branches coverage](../badges/branches.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
 
 # camel-with-quarqus Project
 
