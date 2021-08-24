@@ -2,6 +2,8 @@ quarkus:
   application:
     name: camel-quarkus-xml
     version: 1.0.0
+  swagger-ui:
+    always-include: true
 camel:
   context:
     name: camel-quarkus-xml-context
