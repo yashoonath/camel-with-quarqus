@@ -4,6 +4,19 @@ quarkus:
     version: 1.0.0
   swagger-ui:
     always-include: true
+  security:
+    users:
+      embedded:
+        enabled: true
+        plain-text: true
+        users:
+          root: root
+          test: test
+          user: user
+        roles:
+          root: admin,tester
+          test: tester
+          user: user
 camel:
   context:
     name: camel-quarkus-xml-context
