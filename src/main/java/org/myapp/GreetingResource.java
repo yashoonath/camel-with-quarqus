@@ -2,6 +2,7 @@ package org.myapp;
 
 import org.apache.camel.FluentProducerTemplate;
 
+import javax.annotation.security.RolesAllowed;
 import javax.inject.Inject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -17,6 +18,7 @@ public class GreetingResource {
 
     @GET
     @Path("{name}")
+    @RolesAllowed({"admin","tester"})
     @Produces(MediaType.TEXT_PLAIN)
     public String hello(@PathParam("name") String name) {
         return fluentProducerTemplate
