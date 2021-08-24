@@ -1,6 +1,6 @@
 [![Quarkus Codestart CI](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml/badge.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
 [![coverage](../badges/jacoco.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml) [![branches coverage](../badges/branches.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/yashoonath/camel-with-quarqus/workflows/CodeQL/badge.svg)](https://github.com/MichaelCurrin/badge-generator/actions?query=workflow%3ACodeQL "Code quality workflow status")
+[![CodeQL](https://github.com/yashoonath/camel-with-quarqus/workflows/CodeQL/badge.svg)](https://github.com/yashoonath/camel-with-quarqus/actions?query=workflow%3ACodeQL "Code quality workflow status")
 
 # camel-with-quarqus Project
 
