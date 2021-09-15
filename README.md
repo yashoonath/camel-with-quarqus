@@ -1,8 +1,8 @@
-[![Quarkus Codestart CI](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml/badge.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
-[![coverage](../badges/jacoco.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml) [![branches coverage](../badges/branches.svg)](https://github.com/yashoonath/camel-with-quarqus/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/yashoonath/camel-with-quarqus/workflows/CodeQL/badge.svg)](https://github.com/yashoonath/camel-with-quarqus/actions?query=workflow%3ACodeQL "Code quality workflow status")
+[![Quarkus Codestart CI](https://github.com/yashoonath/camel-with-quarKus/actions/workflows/ci.yml/badge.svg)](https://github.com/yashoonath/camel-with-quarkus/actions/workflows/ci.yml)
+[![coverage](../badges/jacoco.svg)](https://github.com/yashoonath/camel-with-quarkus/actions/workflows/ci.yml) [![branches coverage](../badges/branches.svg)](https://github.com/yashoonath/camel-with-quarkus/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/yashoonath/camel-with-quarkus/workflows/CodeQL/badge.svg)](https://github.com/yashoonath/camel-with-quarkus/actions?query=workflow%3ACodeQL "Code quality workflow status")
 
-# camel-with-quarqus Project
+# camel-with-quarkus Project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
@@ -45,7 +45,7 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 ./mvnw package -Pnative -Dquarkus.native.container-build=true
 ```
 
-You can then execute your native executable with: `./target/camel-with-quarqus-1.0.0-SNAPSHOT-runner`
+You can then execute your native executable with: `./target/camel-with-quarkus-1.0.0-SNAPSHOT-runner`
 
 If you want to learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.html.
 
