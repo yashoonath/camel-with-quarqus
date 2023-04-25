@@ -19,12 +19,16 @@
             http://camel.apache.org/schema/spring
             http://camel.apache.org/schema/spring/camel-spring.xsd">
 
-    <route id="xml-route">
+    <route id="greetings-route">
         <from uri="direct:greetings"/>
         <log message="${body} said hello"/>
         <setBody>
             <simple>Hi ${body}</simple>
         </setBody>
+    </route>
+    <route id="hi-route">
+        <from uri="direct:hi"/>
+        <log message="Hi ${body}, how are you ?"
     </route>
 
 </routes>
