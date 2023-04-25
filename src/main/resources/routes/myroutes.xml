@@ -25,10 +25,11 @@
         <setBody>
             <simple>Hi ${body}</simple>
         </setBody>
+        <to uri="direct:hi"/>
     </route>
     <route id="hi-route">
         <from uri="direct:hi"/>
-        <log message="Hi ${body}, how are you ?"
+        <log message="Hi ${body}, how are you ?"/>
     </route>
 
 </routes>
