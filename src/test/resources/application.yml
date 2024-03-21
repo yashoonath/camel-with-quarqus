@@ -6,4 +6,4 @@ quarkus:
     console:
       json: false
   jacoco:
-    report-location: site/jacoco
+    report-location: target/site/jacoco
