@@ -12,10 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4.1.5
+        uses: actions/checkout@v4.1.7
 
       - name: Checkout Badge Branch
-        uses: actions/checkout@v4.1.5
+        uses: actions/checkout@v4.1.7
         with:
           ref: badges
           path: badges
