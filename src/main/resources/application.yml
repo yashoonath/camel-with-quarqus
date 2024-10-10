@@ -2,6 +2,9 @@ quarkus:
   application:
     name: camel-quarkus-xml
     version: 1.0.0
+  log:
+    console:
+      json: false  
   swagger-ui:
     always-include: true
   security:
