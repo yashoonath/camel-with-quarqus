@@ -29,7 +29,10 @@
     </route>
     <route id="hi-route">
         <from uri="direct:hi"/>
-        <log message="Hi ${body}, how are you ?"/>
+        <log message="${body}, how are you ?"/>
+        <setBody>
+            <simple>${body}, how are you ?</simple>
+        </setBody>
     </route>
 
 </routes>
